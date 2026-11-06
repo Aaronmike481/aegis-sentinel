@@ -1,8 +1,13 @@
-module documentpay
+module aegris-sentinel
 
 go 1.24.4
 
-require github.com/YuminosukeSato/pyproc v0.7.1
+toolchain go1.24.5
+
+require (
+	github.com/YuminosukeSato/pyproc v0.7.1
+	github.com/google/uuid v1.6.0
+)
 
 require (
 	github.com/fsnotify/fsnotify v1.8.0 // indirect

@@ -1,5 +1,7 @@
+.venv/
 venv/
-backend/.venv/
+*.tar.gz
 node_modules/
-__pycache__/
 .next/
+__pycache__/
+*.pyc
